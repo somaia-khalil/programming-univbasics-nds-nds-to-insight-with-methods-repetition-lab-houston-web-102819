@@ -31,6 +31,7 @@ def list_of_directors(source)
     list << source[array_index][:name]
     array_index += 1
   end
+  list
 end
 
 
